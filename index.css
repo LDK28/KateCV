@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Circe-Light";
+  src: url("./fonts/Circe-Light.ttf");
+}
+
+@font-face {
+  font-family: "Circe-Regular";
+  src: url("./fonts/Circe-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Circe-Bold";
+  src: url("./fonts/Circe-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Circe-Thin";
+  src: url("./fonts/Circe-Thin.ttf");
+}
+
+
+body {
+  font-family: "Circe-Regular";
+  margin: 0;
+}
+
+b {
+  font-family: "Circe-Bold";
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.background-black {
+  background-color: #111111;
+  color: white;
+}
+
+.chapter {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.p-60 {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.p-30 {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.chapter-title {
+  font-family: "Circe-Bold";
+  font-size: 24px;
+  padding: 30px 0;
+}
+
+.chapter-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chapter-description {
+  font-family: "Circe-Light";
+  font-size: 20px;
+  padding: 30px 220px
+}
+
+.chapter-description-short {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-image {
+  height: 560px;
+}
+
+.main-title {
+  font-size: 38px;
+  line-height: 1.23;
+  margin-bottom: 16px;
+  font-family: "Circe-Bold";
+}
+
+.main-contacts {
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-family: "Circe-Light";
+}
+
+.main-contacts a {
+  color: #666666;
+  text-decoration: none;
+}
+
+
+.main-line {
+  display: block;
+  max-width: 50px;
+  width: 100%;
+  height: 3px;
+  background-color: #666;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-description {
+  margin-top: 28px;
+  font-size: 20px;
+  line-height: 1.55;
+  font-family: "Circe-Light";
+}
+
+.vertical-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.under-line {
+  height: 1px;
+  background-color: #000000;
+  margin: 36px 30%;
+  max-width: 1200px;
+}
+
+.box-360 {
+  height: 360px;
+  max-width: 360px;
+}
+
+.orange-link {
+  text-decoration: underline;
+  color: #ff8562;
+}
+
+.photos {
+  display: flex;
+  gap: 40px;
+}
+
+.cases-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.case-card {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+.case-card-img {
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+}
+
+.case-card-title {
+  font-family: "Circe-Bold";
+  font-size: 30px;
+  line-height: 1.17;
+}
+
+.case-card-description {
+  font-family: "Circe-Light";
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.about-favot-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-favot-images {
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.about-favot-images img {
+  height: 270px;
+}
+
+.about-favot-text {
+  max-width: 460px;
+}
+
+.about-favot-text-title {
+  font-size: 26px;
+  font-family: "Circe-Bold";
+  margin-bottom: 24px;
+}
+
+.about-favot-text-description {
+  font-size: 20px;
+  font-family: "Circe-Light";
+}
+
+.marianna-img {
+  width: 260px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
